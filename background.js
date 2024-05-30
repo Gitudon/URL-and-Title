@@ -5,7 +5,7 @@ var browser = browser||chrome;
 //コンテキストメニューに拡張のメニューを追加
 browser.contextMenus.create({
     id: 'MarkDownLink',
-    title: 'MarkDownのリンク形式で取得',
+    title: 'Copy MarkDown Link and Title',
         onclick: (info, tab)=>{ //クリックされた際のアクション
             var url = tab.url;
             var title = tab.title;
