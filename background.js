@@ -1,4 +1,3 @@
-
 //Edge の名前空間(browser) がなけれぱ chrome の名前空間を使用する
 var browser = browser||chrome;
 
