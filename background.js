@@ -19,7 +19,7 @@ browser.contextMenus.create({
                 document.body.appendChild(ta);
                 ta.select();
                 document.execCommand("copy");
-                ta.parentElement.removeChild(ta);  
+                ta.parentElement.removeChild(ta);
             }
     }
 });
