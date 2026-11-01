@@ -1,14 +1,15 @@
 {
     "name": "MarkDown-URL_and_Title",
     "author": "Udon",
-    "version": "1.0",
-    "manifest_version": 2,
+    "version": "2.0.0",
+    "manifest_version": 3,
     "description": "URLとタイトルをMarkDownのリンク形式で取得します。",
     "background": {
-        "scripts": ["background.js"],
-        "persistent": true
+        "service_worker": "background.js"
     },
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "activeTab",
+        "scripting"
     ]
 }
